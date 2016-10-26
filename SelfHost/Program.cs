@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using Api;
 
@@ -19,9 +17,9 @@ namespace SelfHost
 
                 Console.WriteLine(response);
                 Console.WriteLine(response.Content.ReadAsStringAsync().Result);
-            }
 
-            Console.ReadLine();
+                Console.ReadLine();
+            }
         }
     }
 }

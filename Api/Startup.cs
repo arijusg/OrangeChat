@@ -9,6 +9,7 @@ namespace Api
     {
         public void Configuration(IAppBuilder app)
         {
+            ConfigureStaticFiles(app);
             app.UseWebApi(GetWebApiConfiguration());
         }
     }
